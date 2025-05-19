@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+        var a = 0;
+      function myFunction() {
+        document.getElementById("texto").innerHTML = "nuevo texto. "+a;
+        a++;
+      }
+    </script>
+  </head>
+  <body>
+    <h2>JavaScript en la etiqueta head</h2>
+
+    <p id="texto">Un texto</p>
+    <button type="button" onclick="myFunction()">Cambia Texto</button>
+  </body>
+</html>
